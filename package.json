@@ -1,6 +1,6 @@
 {
-  "name": "to-do-notes-react",
-  "homepage": "https://ayushkv001.github.io/to-do-notes-react",
+  "name": "to-do-notes-app",
+  "homepage": "https://ayushkv001.github.io/to-do-notes-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
