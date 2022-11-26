@@ -34,7 +34,7 @@ function App() {
         <ul >
           {
             list.map((items,id)=>{
-              return <li><div className='items'><div className='index'>{id+1}</div><div className='item'>{items}</div><div className='image'><button onClick={()=>{deleteItem(id)}}><img src={trash} /></button></div></div></li>
+              return <li><div className='items'><div className='index'>{id+1}</div><div className='item'>{items}</div><div className='image'><button onClick={()=>{deleteItem(id)}}><img src={trash} alt="trash"/></button></div></div></li>
             })
           }
         </ul>
